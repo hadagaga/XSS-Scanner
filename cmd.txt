@@ -1,0 +1,4 @@
+python.exe XSS_seeker.py
+python.exe new_XSS_seeker.py
+命令格式：
+传参方式(POST/GET(必选)) url(必填)

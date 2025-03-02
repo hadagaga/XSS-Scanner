@@ -1,0 +1,23 @@
+POST /pikachu-master/vul/xss/xsspost/xss_reflected_post.php HTTP/1.1
+Host: 127.0.0.1
+Content-Length: 22
+Cache-Control: max-age=0
+sec-ch-ua: "Not A(Brand";v="24", "Chromium";v="110"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Origin: http://127.0.0.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.178 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://127.0.0.1/pikachu-master/vul/xss/xsspost/xss_reflected_post.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: ant[uname]=admin; ant[pw]=10470c3b4b1fed12c3baac014be15fac67c6e815; PHPSESSID=tb5f4886nirok1r93cpldn6l32
+Connection: close
+
+message=&submit=submit
